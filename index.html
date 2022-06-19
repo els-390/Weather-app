@@ -15,30 +15,37 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>Paris</h1>
-        <ul>
-          <li>Friday 05:00</li>
-          <li>Clear</li>
-        </ul>
-        <div class="row">
-          <div class="col-6">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/169/169367.png"
-              width="80"
-              alt="clear"
-            />
-            12°C | °F
-          </div>
-          <div class="col-6">
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="overview">
+            <h1>Paris</h1>
             <ul>
-              <li>Feels like: 16°C</li>
-              <li>Humidity: 65%</li>
-              <li>Wind: 5km/h</li>
+              <li>Friday 05:00</li>
+              <li>Clear</li>
             </ul>
           </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/169/169367.png"
+                  width="80"
+                  alt="clear"
+                  class="float-left"
+                /><strong> 12</strong>
+                <span class="units">°C | <a href="#">°F</a></span>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Feels like: 16°C</li>
+                <li>Humidity: 65%</li>
+                <li>Wind: 5km/h</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <small>
+        <small class="code">
           <a href="https://github.com/els-390/Weather-App" target="_blank">
             Open-soure code</a
           >, by Ellie Spanswick</small
