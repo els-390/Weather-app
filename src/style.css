@@ -1,5 +1,7 @@
 body {
   font-family: arial, sans-serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/038/939/original/sky.png.jpg?1656432917");
+  opacity: 0.95;
 }
 
 h1 {
@@ -42,8 +44,7 @@ a {
   padding: 20px;
   border: 1px solid #7a7d81;
   border-radius: 5px;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/038/939/original/sky.png.jpg?1656432917");
-  opacity: 0.3;
+  background-color: #fff;
 }
 
 .overview {
@@ -101,4 +102,9 @@ a {
 }
 .weather-forecast-temperature {
   font-size: 13px;
+}
+
+.btn {
+  background-color: #e87253;
+  border: none;
 }
